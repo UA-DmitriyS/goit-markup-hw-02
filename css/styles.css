@@ -1,0 +1,47 @@
+:root {
+  --text-color: #757575;
+  --title-text-color: #212121;
+  --logo-text-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+/* -------Header--------- */
+.logo-nav {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo {
+  color: var(--title-text-color);
+}
+.text-nav {font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;}
+/* ----------HERO-------------- */
+
+/* ------------ADV----------- */
+
+/*-------about----------------*/
+
+/* ----------TEAm------------ */
+
+/* ----------footer--------- */
