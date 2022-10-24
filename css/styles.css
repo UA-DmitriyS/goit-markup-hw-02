@@ -11,6 +11,7 @@ body {
 }
 /* =====LOGO COLOR===== */
 .logo-nav {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -41,7 +42,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #757575;
+  color: #212121;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -88,18 +89,17 @@ body {
 }
 .btn-hero {
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
   cursor: pointer;
   background-color: var(--logo-text-color);
   border: none;
+  letter-spacing: 0.06em;
   color: #ffffff;
 }
 /* ================adv============ */
 
 .adv-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -108,7 +108,6 @@ body {
   color: var(--title-text-color);
 }
 .adv-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -116,7 +115,6 @@ body {
 }
 /* ================about============== */
 .about-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -125,16 +123,24 @@ body {
 }
 /* ==============team================= */
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+.team-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -147,7 +153,6 @@ body {
   background-color: #2f303a;
 }
 .logo-ftr {
-  font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
@@ -166,7 +171,6 @@ body {
   color: #ffffff;
 }
 .f-tel {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -174,7 +178,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .f-mail {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -195,7 +198,6 @@ body {
 }
 
 .hero-titleport {
-  font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
@@ -207,7 +209,6 @@ body {
   display: none;
 }
 .text-titleport {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
