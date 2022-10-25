@@ -19,6 +19,7 @@ body {
   color: var(--title-text-color);
   text-decoration: none;
 }
+
 .logo {
   color: var(--logo-text-color);
 }
@@ -89,6 +90,7 @@ body {
 }
 .btn-hero {
   font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
   cursor: pointer;
@@ -153,11 +155,15 @@ body {
   background-color: #2f303a;
 }
 .logo-ftr {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--logo-text-color);
 }
+
 .logo-ftr-part {
   color: #ffffff;
 }
